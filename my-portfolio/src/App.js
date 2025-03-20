@@ -89,8 +89,8 @@ const Skills = () => {
           <img src="images/js.png" alt="JavaScript" />
           <p>JavaScript</p>
         </div>
-        <div classname="skill-box">
-          <image src="images/react.png" alt="React" />
+        <div className="skill-box">
+          <img src="images/react.png" alt="React" />
           <p>React</p>
         </div>
         <div className="skill-box">
