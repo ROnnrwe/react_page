@@ -2,7 +2,7 @@
 body {
     background-color: #000;  /* 배경색을 검은색으로 */
     color: #fff;  /* 글자색을 하얀색으로 */
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
   }
@@ -20,13 +20,17 @@ body {
   header {
     margin-bottom: 50px;
   }
-  
+
   .typing {
     font-size: 2.5rem;
     font-weight: bold;
-    animation: typing 3s steps(30) 1s forwards;
+    display: inline-block;  /* width 애니메이션을 위해 필요 */
+    overflow: hidden;       /* 넘치는 텍스트 숨김 */
+    white-space: nowrap;    /* 한 줄 유지 */
+    border-right: 2px solid white; /* 타이핑 효과 강조 (선택 사항) */
+    animation: typing 3s steps(30) 1s forwards, blinkCursor 0.7s infinite;
   }
-  
+
   @keyframes typing {
     from {
       width: 0;
@@ -35,7 +39,13 @@ body {
       width: 100%;
     }
   }
-  
+
+  @keyframes blinkCursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+
   nav ul {
     list-style: none;
     padding: 0;
@@ -69,7 +79,7 @@ body {
   }
   
   .portfolio-box {
-    background-color: #222;
+    background-color: #447955;
     padding: 20px;
     border-radius: 10px;
     width: 100%;
@@ -84,7 +94,7 @@ body {
   
   .details {
     display: none;
-    background-color: #333;
+    background-color: #093f57;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
