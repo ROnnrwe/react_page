@@ -1,0 +1,165 @@
+/* 전체 배경색 및 글자색 설정 */
+body {
+    background-color: #000;  /* 배경색을 검은색으로 */
+    color: #fff;  /* 글자색을 하얀색으로 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 전체 중앙 정렬 */
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* 화면 전체를 꽉 채우기 위해 최소 높이를 100vh로 설정 */
+    text-align: center;
+  }
+  
+  /* 헤더 스타일 */
+  header {
+    margin-bottom: 50px;
+  }
+  
+  .typing {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: typing 3s steps(30) 1s forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  /* Portfolio 섹션 */
+  #portfolio {
+    padding: 50px 20px;
+  }
+  
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* 반응형 그리드 */
+    gap: 20px;
+    justify-items: center;  /* 그리드 아이템들을 중앙에 정렬 */
+  }
+  
+  .portfolio-box {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;  /* 최대 너비 설정 */
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .portfolio-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .details {
+    display: none;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .details.visible {
+    display: block;
+  }
+  
+  h1, h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Me 섹션 */
+  #about {
+    padding: 50px 20px;
+  }
+  
+  ul {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+  
+  .icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+  }
+  
+  .icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Skills 섹션 */
+  #skills {
+    padding: 50px 20px;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));  /* 반응형 그리드 */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .skill-box {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .skill-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
