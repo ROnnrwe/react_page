@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "//github.io/ROnnrwe/react_page/static/css/main.2fadfc98.css",
-    "main.js": "//github.io/ROnnrwe/react_page/static/js/main.b3496711.js",
-    "static/js/453.acca0757.chunk.js": "//github.io/ROnnrwe/react_page/static/js/453.acca0757.chunk.js",
-    "index.html": "//github.io/ROnnrwe/react_page/index.html",
-    "main.2fadfc98.css.map": "//github.io/ROnnrwe/react_page/static/css/main.2fadfc98.css.map",
-    "main.b3496711.js.map": "//github.io/ROnnrwe/react_page/static/js/main.b3496711.js.map",
-    "453.acca0757.chunk.js.map": "//github.io/ROnnrwe/react_page/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/react_page/static/css/main.2fadfc98.css",
+    "main.js": "/react_page/static/js/main.6d19196c.js",
+    "static/js/453.acca0757.chunk.js": "/react_page/static/js/453.acca0757.chunk.js",
+    "index.html": "/react_page/index.html",
+    "main.2fadfc98.css.map": "/react_page/static/css/main.2fadfc98.css.map",
+    "main.6d19196c.js.map": "/react_page/static/js/main.6d19196c.js.map",
+    "453.acca0757.chunk.js.map": "/react_page/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fadfc98.css",
-    "static/js/main.b3496711.js"
+    "static/js/main.6d19196c.js"
   ]
 }
